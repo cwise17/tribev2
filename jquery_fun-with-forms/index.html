@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Select to choose news sources here -->
+        <div id="page-wrap">
+            <h1>Fun with forms</h1>
+            <div id="form-wrap">
+                <h2>Inputs:</h2>
+
+                <label for="text-me">Text:</label>
+                <input type="text" name="text-me">
+
+                <h3>Radio Buttons</h3>
+                <label for="thing1">Thing 1</label>
+                <input type="radio" name="things" id="thing1" value="thing1">
+
+                <label for="thing2">Thing 2</label>
+                <input type="radio" name="things" id="thing2" value="thing2">
+
+                <h3>Check boxes</h3>
+                    <input type="checkbox" name="checkit" value="cash"> Cash<br>
+                    <input type="checkbox" name="checkit" value="cash"> Check<br>
+                    <input type="checkbox" name="checkit" value="cash"> Check<br> 
+                <br>
+
+                <label for="thing2">Submit!</label>
+                <input type="submit" name="submitit">
+
+                <h2>Selects:</h2>
+
+                <h3>Select One:</h3>
+                <select>
+                    <option value="">Option 1</option>
+                    <option value="">Option 2</option>
+                    <option value="">Option 3</option>
+                    <option value="">Option 2</option>
+                </select>
+
+                <h3>Multi-select:</h3>
+                <select name="dinner" multiple="multiple">
+                    <option>Sushi</option>
+                    <option>Pizza</option>
+                    <option>Burgers</option>
+                    <option>Tacos</option>
+                    <option>Thai</option>
+                </select>
+            </div>
+            <div id="results">
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

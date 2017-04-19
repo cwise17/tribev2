@@ -1,0 +1,7 @@
+{"lemurs":[
+    { "title":"What is a Lemur?", "caption":"Lemurs are a clade of strepsirrhine primates endemic to the island of Madagascar.","image":"img/lemur1.jpg"},
+    { "title":"Etymology", "caption":"The word lemur derives from the word lemures (ghosts or spirits) from Roman mythology and was first used to describe a slender loris due to its nocturnal habits and slow pace, but was later applied to the primates on Madagascar.","image":"img/lemur2.jpg" },
+    { "title":"Are lemurs primates?", "caption":"As with other strepsirrhine primates, such as lorises, pottos, and galagos (bush babies), lemurs share resemblance with basal primates. In this regard, lemurs are often confused with ancestral primates, when in actuality, lemurs did not give rise to monkeys and apes, but evolved independently.","image":"img/lemur3.jpg" },
+    { "title":"Lemur Evolution", "caption":"Due to Madagascar's highly seasonal climate, lemur evolution has produced a level of species diversity rivaling that of any other primate group. ","image":"img/lemur4.jpg"},
+    { "title":"Giant Lemurs", "caption":"Until shortly after humans arrived on the island around 2,000 years ago, there were lemurs as large as a male gorilla.","image":"img/lemur5.jpg" }
+]}
