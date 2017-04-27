@@ -37,24 +37,65 @@ html {
 
 #main {
     width: 100%;
-    height: 600px;
+    height: 700px;
     background: orange;
     
+}
+
+#menu {
+    width:25%;
+    background: green;
+    float:left;
+    height:700px;
 }
 
 #chat {
    width:50%; 
     background: red;
-    height: 400px;
+    height: 600px;
     float:left;
 }
 
 #feed {
-  width:50%;
+  width:25%;
     background: blue;
-    height: 400px;
+    height: 700px;
     float:right;
       
+}
+
+#box1 {
+    width:93%;
+    background:yellow;
+    height:200px;
+    margin-bottom:20px;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#box2 {
+    width:93%;
+    background:orange;
+    height: 200px;
+    float:bottom;
+    align:center;
+    margin-bottom: 20px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#box3 {
+    width:93%;
+    background: magenta;
+    height: 200px;
+    float: bottom;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    
 }
 
 
